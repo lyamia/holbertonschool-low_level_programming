@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("Art is a piece of work.\n");
-    return 0;
+	printf("Art is a piece of work.\n");
+	return(0);
 }
