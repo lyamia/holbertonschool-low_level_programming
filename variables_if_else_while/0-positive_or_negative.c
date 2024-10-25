@@ -1,13 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/* more headers goes there */
-
 /*
- * main - Entry point of the program
- *
- * Description: This program generatesa random number and checks
+ * main - This program generatesa random number and checks
  * whether the number is positive, negative, or zero, and prints
  * the result accordingly.
  *
