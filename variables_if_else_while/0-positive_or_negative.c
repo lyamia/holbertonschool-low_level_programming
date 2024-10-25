@@ -7,11 +7,11 @@
 /*
  * main - Entry point of the program
  *
- * Description:This program generatesa random number and checks
+ * Description: This program generatesa random number and checks
  * whether the number is positive, negative, or zero, and prints
  * the result accordingly.
  *
- * Return:Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
