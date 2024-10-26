@@ -3,29 +3,28 @@
 #include <stdio.h>
 
 /**
- * main - Determine the last digit of a random number and classify it.
+ * main - True
  *
- * Return: 0 on success
+ * Return: Always 0
  */
 int main(void)
 {
-	int n;
-	int last_d;
+int n, d_last;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	last_d = n % 10;
-	if (last_d > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, last_d);
-	}
-	else if (last_d == 0)
-	{
-		printf("The last digit of %d is %d and is 0\n", n, last_d);
-	}
-	else
-	{
-		printf("The last digit of %d is %d and is less than 6 and not 0\n", n, last_d);
-	}
-	return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+d_last = n % 10;
+if (d_last > 5)
+{
+	printf("Last digit of %d is %d and is greater than 5\n", n, d_last);
+}
+else if (d_last == 0)
+{
+	printf("Last digit of %d is %d and is 0\n", n, d_last);
+}
+else
+{
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, d_last);
+}
+return (0);
 }
