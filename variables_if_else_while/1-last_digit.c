@@ -3,11 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - - Determine the last digit of a random number and classify it.
- *
- * Description: This program assigns a random number to `n` each time it is
- * executed, then determines the last digit of `n`. Based on the last digit,
- * it prints whether it is greater than 5, equal to 0, or less than 6 and not 0.
+ * main - Determine the last digit of a random number and classify it.
  *
  * Return: 0 on success
  */
