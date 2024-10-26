@@ -3,8 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
- * betty style doc for function main goes there
+/**
  * main - - Determine the last digit of a random number and classify it.
  *
  * Description: This program assigns a random number to `n` each time it is
