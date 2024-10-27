@@ -1,29 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Prints all combinations of two different digits
+ * main -IDK
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int num1, num2;
+	int num = 0;
 
-	for (num1 = 0; num1 <= 9; num1++)
+	while (num < 10)
 	{
-		for (num2 = num1 + 1; num2 <= 9; num2++)
-		{
-			putchar(num1 + '0');
-			putchar(num2 + '0');
-
-			if (num1 == 8 && num2 == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(num + '0');
+		if (num == 9)
+			break;
+		putchar(',');
+		putchar(' ');
+		num++;
 	}
-
 	return (0);
 }
-
