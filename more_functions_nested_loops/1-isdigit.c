@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _idigit - main
+ * _isdigit - main
  * @c: var 1
  *
- * Return 1
+ * Return: zero
  */
 int _isdigit(int c)
 {
