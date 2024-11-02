@@ -2,15 +2,20 @@
 #include <stdio.h>
 
 /**
- * test - program that prints FizzBuzz
+ * main - Entry point of the program
  *
- * Return: None
+ * Return: Always 0
  */
 int main(void)
 {
 	test();
 	return (0);
 }
+/**
+ * test - program that prints FizzBuzz
+ *
+ * Return: None
+ */
 
 int test(void)
 {
@@ -20,17 +25,24 @@ int test(void)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
-			printf("%s", "FizzBuzz ");
+			printf("%s ", "FizzBuzz");
 		}
 		else if (num % 5 == 0)
 		{
-			printf("%s", "Buzz ");
+			printf("%s ", "Buzz");
 		}
 		else if (num % 3 == 0)
 		{
-			printf("%s", "Fizz ");
+			printf("%s ", "Fizz");
 		}
+		else
+		{
 		printf("%d ", num);
+		}
+		if (num == 100)
+			continue;
+		printf(" ");
 	}
+	printf("\n");
 	return (0);
 }
