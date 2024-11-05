@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
- * puts2 - Prints every other character of a string, starting with the first.
- * @str: The string to process.
+ * puts2 - main
+ * @str: var 1
  */
 void puts2(char *str)
 {
-	while (*str)
-	{
-		_putchar(*str);
-		str += 2;
-	}
+	int index = 0, len = 0;
+
+	while (str[index++])
+		len++;
+
+	for (index = 0; index < len; index += 2)
+		_putchar(str[index]);
+
 	_putchar('\n');
 }
