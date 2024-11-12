@@ -3,7 +3,7 @@
  * _strncat - concatenates two strings
  * @dest: var 1
  * @src: var2
- * n: var3
+ * @n: var3
  *
  * Return: idk
  */
