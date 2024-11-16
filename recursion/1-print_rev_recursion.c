@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *
+ * _print_rev_recursion - Prints reversed srig
+ * @s: strign input
  *
  */
 void _print_rev_recursion(char *s)
